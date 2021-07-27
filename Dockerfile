@@ -1,5 +1,5 @@
 # jupyter base image
-FROM jupyter/scipy-notebook
+FROM jupyter/scipy-notebook:lab-3.0.16
 
 # update and install packages
 RUN pip install \
