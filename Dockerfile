@@ -3,5 +3,5 @@ FROM jupyter/scipy-notebook
 
 # update and install packages
 RUN pip install \
-  geopandas \
+  geopandas==0.9.0 \
   mapclassify==2.4.0
